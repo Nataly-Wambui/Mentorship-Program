@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements</title>
+    <link rel="stylesheet" href="achievements.css">
+</head>
+<body>
+    <nav>
+      <img id="logo" src="/Media/BlueLogo-removebg-preview.png" alt="Logo">
+        <a href="/program.html">Home</a>
+        <a href="/to-do.html">To-do list</a>
+        <a href="/achievements.html">Achievements</a>
+        <a href="/goals.html">Goal Setting</a>
+        <div class="dropdown">
+            <a href="Mentor;s Profile" class="dropbtn">Mentor's profile</a>
+            <div class="dropdown-content">
+              <form>
+                <img id="mentor" src="/Media/Mentor.jpg" alt="Mentor,s Image">
+                <p><b>Name:</b> Pascaline Kayitete</p>
+                <p><b>Profession:</b> Full Stack Developer</p>
+                <p><b>Nationality:</b> Rwandese</p>
+                <p><b>Company:</b> Ampersand E-Mobility</p>
+                <p><b>Interest:</b> Reading books</p>
+              </form>
+            </div>
+          </div>
+        <button id="logout" type="logout"><a href="/login.html">Logout</a></button>
+        </nav>
+        <div id="achievements-page">
+          <h1>Achievements</h1>
+          <form id="achievements-form">
+              <input type="text" id="achievements-input" placeholder="Add a new achievement...">
+              <button type="submit">Add</button>
+          </form>
+          <ul id="achievements-list">
+          </ul>
+        </div>
+    <script src="/achievements.js"></script>
+</body>
+</html>

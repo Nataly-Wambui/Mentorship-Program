@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goals</title>
+    <link rel="stylesheet" href="/goals.css">
+</head>
+<body>
+    <nav>
+        <img id="logo" src="/Media/BlueLogo-removebg-preview.png" alt="Logo">
+        <a href="/program.html">Home</a>
+        <a href="/to-do.html">To-do list</a>
+        <a href="/achievements.html">Achievements</a>
+        <a href="/goals.html">Goal Setting</a>
+        <div class="dropdown">
+            <a href="Mentor;s Profile" class="dropbtn">Mentor's profile</a>
+            <div class="dropdown-content">
+              <form>
+                <img id="mentor" src="/Media/Mentor.jpg" alt="Mentor,s Image">
+                <p><b>Name:</b> Pascaline Kayitete</p>
+                <p><b>Profession:</b> Full Stack Developer</p>
+                <p><b>Nationality:</b> Rwandese</p>
+                <p><b>Company:</b> Ampersand E-Mobility</p>
+                <p><b>Interest:</b> Reading books</p>
+              </form>
+            </div>
+          </div>
+        <button id="logout" type="logout"><a href="/login.html">Logout</a></button>
+        </nav>
+        <div id="goals">
+            <div id="short-term">
+                <h1>Short-term Goals</h1>
+                <form id="goals-form">
+                    <input type="text" id="goals-input" placeholder="Add a new goal...">
+                    <button type="submit">Add Goal</button>
+                </form>
+                <ul id="goals-list">
+                </ul>
+            </div>
+            <div id="long-term">
+                <h1>Long-term Goals</h1>
+                <form id="goals-form">
+                    <input type="text" id="goals-input" placeholder="Add a new goal...">
+                    <button type="submit">Add Goal</button>
+                </form>
+                <ul id="goals-list">
+                </ul>
+            </div>
+            <script src="/goals.js"></script>
+        </div>
+      <script src="/goals.js"></script>
+</body>
+</html>
