@@ -12,6 +12,12 @@ a{
     text-decoration: none;
     -webkit-text-fill-color: white;
 }
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
 #logout{
     width: 150px;
     height: 40px;
@@ -65,10 +71,10 @@ a{
     display: flex;
     gap: 10%;
     justify-content: center;
-   
+    line-height: 160%;
 }
 p{
-    font-size: 25px;
+    font-size: 22px;
     width: 700px;
     color: white;
 }

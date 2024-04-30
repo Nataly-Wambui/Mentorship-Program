@@ -116,7 +116,7 @@ body{
         display: flex;
         justify-content: left;
         font-size: 10px;
-        gap: 5%;
+        gap: 2%;
     }
     #logout{
         width: 200px;
@@ -130,7 +130,7 @@ body{
         margin-right: 0px;
     }
     #achievements-page {
-        width: 360px;
+        width: 300px;
         height: 400px;
     }
     #achievements-form input[type="text"] {
