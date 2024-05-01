@@ -9,6 +9,17 @@ a{
     text-decoration: none;
     -webkit-text-fill-color: white;
 }
+p{
+    font-size: 20px;
+}
+#task{
+    display: flex;
+    gap: 51%;
+}
+button{
+    width: 100px;
+    height: 40px;
+}
 #logout{
     width: 200px;
     height: 50px;
